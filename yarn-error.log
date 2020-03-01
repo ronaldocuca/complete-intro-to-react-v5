@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add @react/router
+
+PATH: 
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/ronaldocuca/Documents/Estudos/Cursos/FrontendMasters/React/complete-intro-to-react-v5/node_modules/.bin:/home/ronaldocuca/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/ronaldocuca/Android/Sdk/tools:/home/ronaldocuca/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@react%2frouter: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140727:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141699:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "complete-intro-to-react-v5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev:mock": "cross-env PET_MOCK=mock npm run dev",
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.0.3",
+      "cross-env": "^7.0.0",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.18.3",
+      "eslint-plugin-react-hooks": "^2.5.0",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^1.19.1"
+    },
+    "dependencies": {
+      "@frontendmasters/pet": "^1.0.3",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0"
+    },
+    "browserslist": [
+      "last 2 Chrome versions"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
